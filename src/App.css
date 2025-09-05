@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+
+input[type="file"]::-webkit-file-upload-text {
+  visibility: hidden; /* Chrome, Safari */
+  
+}
+
+input[type="file"]::file-selector-button {
+  content: "Upload"; /* Modern browsers */
+}
