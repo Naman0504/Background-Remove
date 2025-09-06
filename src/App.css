@@ -9,3 +9,8 @@ input[type="file"]::-webkit-file-upload-text {
 input[type="file"]::file-selector-button {
   content: "Upload"; /* Modern browsers */
 }
+
+
+body{
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
